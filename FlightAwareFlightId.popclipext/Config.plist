@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Version</key>
+	<integer>2</integer>
+	<key>Extension Name</key>
+	<string>FlightAware Flight Id</string>
+	<key>Extension Identifier</key>
+	<string>com.jamessulak.com.flightaware-flight-id</string>
+	<key>Extension Description</key>
+	<string>Open Flight ID in FlightAware</string>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>URL</key>
+			<string>https://sulak.flightaware.com/live/flight/id/{popclip text}</string>
+			<!--<key>Image File</key>
+			<string>TranslationIcon.png</string>-->
+			<key>Title</key>
+			<string>Flight ID</string>
+			<key>Regular Expression</key>
+			<string>^[A-Za-z0-9]{3,12}-[A-Za-z0-9\-]{10,40}(:[0-9]{1,3})?$</string>
+		</dict>
+	</array>
+</dict>
+</plist>
