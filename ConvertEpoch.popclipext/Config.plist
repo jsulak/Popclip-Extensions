@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Version</key>
+	<integer>2</integer>
+	<key>Extension Name</key>
+	<string>Convert Unix Epoch Time</string>
+	<key>Extension Identifier</key>
+	<string>com.jamessulak.com.epoch-time-converter</string>
+	<key>Extension Description</key>
+	<string>Convert Unix epoch time to human-readable datetime</string>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Shell Script File</key>
+			<string>epoch.sh</string>
+			<!--<key>Image File</key>
+			<string>TranslationIcon.png</string>-->
+			<key>Title</key>
+			<string>Epoch</string>
+			<key>Regular Expression</key>
+			<string>^[0-9]{10}$</string>
+		</dict>
+	</array>
+</dict>
+</plist>
