@@ -15,8 +15,8 @@
 		<dict>
 			<key>Shell Script File</key>
 			<string>epoch.sh</string>
-			<!--<key>Image File</key>
-			<string>TranslationIcon.png</string>-->
+			<key>Image File</key>
+			<string>clock.png</string>
 			<key>Title</key>
 			<string>Epoch</string>
 			<key>Regular Expression</key>
