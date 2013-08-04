@@ -13,14 +13,12 @@
 	<key>Actions</key>
 	<array>
 		<dict>
-			<key>URL</key>
-			<string>http://flightaware.fogbugz.com/default.asp?{popclip text}</string>
-			<!--<key>Image File</key>
-			<string>TranslationIcon.png</string>-->
+			<key>Shell Script File</key>
+			<string>open.sh</string>
 			<key>Title</key>
 			<string>Fogbugz</string>
 			<key>Regular Expression</key>
-			<string>^(FB)?[0-9]{4,5}$</string>
+			<string>^(FB|BUGZID(:)?)?[0-9]{4,5}$</string>
 		</dict>
 	</array>
 </dict>
