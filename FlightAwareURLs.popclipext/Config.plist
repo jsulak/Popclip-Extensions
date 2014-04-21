@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Script Interpreter</key>
+			<string>/usr/bin/tclsh</string>
+			<key>Shell Script File</key>
+			<string>converturls.tcl</string>
+			<key>Title</key>
+			<string>vhost</string>
+			<key>Regular Expression</key>
+			<string>(?s)^.*flightaware.com.*$</string>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<string>Convert and open FlightAware urls between staging and vhost.</string>
+	<key>Extension Identifier</key>
+	<string>com.jamessulak.com.convert-flightaware-urls</string>
+	<key>Extension Name</key>
+	<string>Convert FlightAware URLs</string>
+	<key>Version</key>
+	<integer>1</integer>
+</dict>
+</plist>
