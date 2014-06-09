@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Script Interpreter</key>
+			<string>/usr/bin/tclsh</string>
+			<key>Shell Script File</key>
+			<string>converturls.tcl</string>
+			<key>Title</key>
+			<string>RE</string>
+			<key>After</key>
+			<string>show-result</string>
+			<key>Regular Expression</key>
+			<string>diff</string>
+		</dict>
+	</array>
+	<key>Pass HTML</key>
+	<string>YES</string>
+	<key>Extension Description</key>
+	<string>Open FlightAware Release Engineering Diffs</string>
+	<key>Extension Identifier</key>
+	<string>com.jamessulak.com.convert-flightaware-re-urls</string>
+	<key>Extension Name</key>
+	<string>Open FlightAware RE Diffs</string>
+	<key>Version</key>
+	<integer>1</integer>
+</dict>
+</plist>
