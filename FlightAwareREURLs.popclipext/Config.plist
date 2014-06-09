@@ -11,8 +11,6 @@
 			<string>converturls.tcl</string>
 			<key>Title</key>
 			<string>RE</string>
-			<key>After</key>
-			<string>show-result</string>
 			<key>Regular Expression</key>
 			<string>diff</string>
 		</dict>
