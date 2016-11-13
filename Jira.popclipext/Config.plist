@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Regular Expression</key>
+			<string>\b[A-Za-z]{3,}-\d+</string>
+			<key>Title</key>
+			<string>Jira</string>
+			<key>URL</key>
+			<string>https://{popclip option url}/browse/{popclip text}</string>
+		</dict>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Option Identifier</key>
+			<string>url</string>
+			<key>Option Label</key>
+			<dict>
+				<key>en</key>
+				<string>Jira URL</string>
+			</dict>
+			<key>Option Type</key>
+			<string>string</string>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<string>Lookup issue in Jira</string>
+	<key>Extension Identifier</key>
+	<string>com.jamessulak.com.jira</string>
+	<key>Extension Name</key>
+	<string>Jira</string>
+</dict>
+</plist>
